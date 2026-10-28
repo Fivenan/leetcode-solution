@@ -170,7 +170,8 @@ function condition(id, example, lang) {
     if (lang === 'rust') return `got.len() == ${example.expected} && ${s}.contains(got.as_str()) && (${example.expected} == 0 || property_covers(&got, ${t}))`;
     return `got.length() == ${example.expected} && ${s}.contains(got) && (${example.expected} == 0 || propertyCovers(got, ${t}))`;
   }
-  return `got == ${example.expected}`;
+  const expected = id === 4 && lang === 'rust' ? `(${example.expected} as f64)` : String(example.expected);
+  return `got == ${expected}`;
 }
 const temp = await mkdtemp(path.join(os.tmpdir(), `leetcode-properties-${language}-`));
 function run(command, args) {
