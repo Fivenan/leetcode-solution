@@ -1,0 +1,8 @@
+# Local editor state and compiler outputs; verification uses OS temporary folders.
+.idea/
+.vscode/
+.DS_Store
+*.class
+*.exe
+*.out
+target/

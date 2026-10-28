@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "title": "Two Sum",
+    "slug": "two-sum",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "twoSum",
+      "rust": "two_sum",
+      "java": "twoSum"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Add Two Numbers",
+    "slug": "add-two-numbers",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "addTwoNumbers",
+      "rust": "add_two_numbers",
+      "java": "addTwoNumbers"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Longest Substring Without Repeating Characters",
+    "slug": "longest-substring-without-repeating-characters",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "lengthOfLongestSubstring",
+      "rust": "length_of_longest_substring",
+      "java": "lengthOfLongestSubstring"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Median of Two Sorted Arrays",
+    "slug": "median-of-two-sorted-arrays",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "findMedianSortedArrays",
+      "rust": "find_median_sorted_arrays",
+      "java": "findMedianSortedArrays"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Longest Palindromic Substring",
+    "slug": "longest-palindromic-substring",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "longestPalindrome",
+      "rust": "longest_palindrome",
+      "java": "longestPalindrome"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Zigzag Conversion",
+    "slug": "zigzag-conversion",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "convert",
+      "rust": "convert",
+      "java": "convert"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Reverse Integer",
+    "slug": "reverse-integer",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "reverse",
+      "rust": "reverse",
+      "java": "reverse"
+    }
+  },
+  {
+    "id": 8,
+    "title": "String to Integer (atoi)",
+    "slug": "string-to-integer-atoi",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "myAtoi",
+      "rust": "my_atoi",
+      "java": "myAtoi"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Palindrome Number",
+    "slug": "palindrome-number",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "isPalindrome",
+      "rust": "is_palindrome",
+      "java": "isPalindrome"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Regular Expression Matching",
+    "slug": "regular-expression-matching",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "isMatch",
+      "rust": "is_match",
+      "java": "isMatch"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Container With Most Water",
+    "slug": "container-with-most-water",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "maxArea",
+      "rust": "max_area",
+      "java": "maxArea"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Integer to Roman",
+    "slug": "integer-to-roman",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "intToRoman",
+      "rust": "int_to_roman",
+      "java": "intToRoman"
+    }
+  },
+  {
+    "id": 13,
+    "title": "Roman to Integer",
+    "slug": "roman-to-integer",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "romanToInt",
+      "rust": "roman_to_int",
+      "java": "romanToInt"
+    }
+  },
+  {
+    "id": 14,
+    "title": "Longest Common Prefix",
+    "slug": "longest-common-prefix",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "longestCommonPrefix",
+      "rust": "longest_common_prefix",
+      "java": "longestCommonPrefix"
+    }
+  },
+  {
+    "id": 15,
+    "title": "3Sum",
+    "slug": "3sum",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "threeSum",
+      "rust": "three_sum",
+      "java": "threeSum"
+    }
+  },
+  {
+    "id": 16,
+    "title": "3Sum Closest",
+    "slug": "3sum-closest",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "threeSumClosest",
+      "rust": "three_sum_closest",
+      "java": "threeSumClosest"
+    }
+  },
+  {
+    "id": 17,
+    "title": "Letter Combinations of a Phone Number",
+    "slug": "letter-combinations-of-a-phone-number",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "letterCombinations",
+      "rust": "letter_combinations",
+      "java": "letterCombinations"
+    }
+  },
+  {
+    "id": 18,
+    "title": "4Sum",
+    "slug": "4sum",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "fourSum",
+      "rust": "four_sum",
+      "java": "fourSum"
+    }
+  },
+  {
+    "id": 19,
+    "title": "Remove Nth Node From End of List",
+    "slug": "remove-nth-node-from-end-of-list",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "removeNthFromEnd",
+      "rust": "remove_nth_from_end",
+      "java": "removeNthFromEnd"
+    }
+  },
+  {
+    "id": 20,
+    "title": "Valid Parentheses",
+    "slug": "valid-parentheses",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "isValid",
+      "rust": "is_valid",
+      "java": "isValid"
+    }
+  },
+  {
+    "id": 21,
+    "title": "Merge Two Sorted Lists",
+    "slug": "merge-two-sorted-lists",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "mergeTwoLists",
+      "rust": "merge_two_lists",
+      "java": "mergeTwoLists"
+    }
+  },
+  {
+    "id": 22,
+    "title": "Generate Parentheses",
+    "slug": "generate-parentheses",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "generateParenthesis",
+      "rust": "generate_parenthesis",
+      "java": "generateParenthesis"
+    }
+  },
+  {
+    "id": 23,
+    "title": "Merge k Sorted Lists",
+    "slug": "merge-k-sorted-lists",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "mergeKLists",
+      "rust": "merge_k_lists",
+      "java": "mergeKLists"
+    }
+  },
+  {
+    "id": 24,
+    "title": "Swap Nodes in Pairs",
+    "slug": "swap-nodes-in-pairs",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "swapPairs",
+      "rust": "swap_pairs",
+      "java": "swapPairs"
+    }
+  },
+  {
+    "id": 25,
+    "title": "Reverse Nodes in k-Group",
+    "slug": "reverse-nodes-in-k-group",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "reverseKGroup",
+      "rust": "reverse_k_group",
+      "java": "reverseKGroup"
+    }
+  },
+  {
+    "id": 26,
+    "title": "Remove Duplicates from Sorted Array",
+    "slug": "remove-duplicates-from-sorted-array",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "removeDuplicates",
+      "rust": "remove_duplicates",
+      "java": "removeDuplicates"
+    }
+  },
+  {
+    "id": 27,
+    "title": "Remove Element",
+    "slug": "remove-element",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "removeElement",
+      "rust": "remove_element",
+      "java": "removeElement"
+    }
+  },
+  {
+    "id": 28,
+    "title": "Find the Index of the First Occurrence in a String",
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "strStr",
+      "rust": "str_str",
+      "java": "strStr"
+    }
+  },
+  {
+    "id": 29,
+    "title": "Divide Two Integers",
+    "slug": "divide-two-integers",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "divide",
+      "rust": "divide",
+      "java": "divide"
+    }
+  },
+  {
+    "id": 30,
+    "title": "Substring with Concatenation of All Words",
+    "slug": "substring-with-concatenation-of-all-words",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "findSubstring",
+      "rust": "find_substring",
+      "java": "findSubstring"
+    }
+  },
+  {
+    "id": 31,
+    "title": "Next Permutation",
+    "slug": "next-permutation",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "nextPermutation",
+      "rust": "next_permutation",
+      "java": "nextPermutation"
+    }
+  },
+  {
+    "id": 32,
+    "title": "Longest Valid Parentheses",
+    "slug": "longest-valid-parentheses",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "longestValidParentheses",
+      "rust": "longest_valid_parentheses",
+      "java": "longestValidParentheses"
+    }
+  },
+  {
+    "id": 33,
+    "title": "Search in Rotated Sorted Array",
+    "slug": "search-in-rotated-sorted-array",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "search",
+      "rust": "search",
+      "java": "search"
+    }
+  },
+  {
+    "id": 34,
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "slug": "find-first-and-last-position-of-element-in-sorted-array",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "searchRange",
+      "rust": "search_range",
+      "java": "searchRange"
+    }
+  },
+  {
+    "id": 35,
+    "title": "Search Insert Position",
+    "slug": "search-insert-position",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "searchInsert",
+      "rust": "search_insert",
+      "java": "searchInsert"
+    }
+  },
+  {
+    "id": 36,
+    "title": "Valid Sudoku",
+    "slug": "valid-sudoku",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "isValidSudoku",
+      "rust": "is_valid_sudoku",
+      "java": "isValidSudoku"
+    }
+  },
+  {
+    "id": 37,
+    "title": "Sudoku Solver",
+    "slug": "sudoku-solver",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "solveSudoku",
+      "rust": "solve_sudoku",
+      "java": "solveSudoku"
+    }
+  },
+  {
+    "id": 38,
+    "title": "Count and Say",
+    "slug": "count-and-say",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "countAndSay",
+      "rust": "count_and_say",
+      "java": "countAndSay"
+    }
+  },
+  {
+    "id": 39,
+    "title": "Combination Sum",
+    "slug": "combination-sum",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "combinationSum",
+      "rust": "combination_sum",
+      "java": "combinationSum"
+    }
+  },
+  {
+    "id": 40,
+    "title": "Combination Sum II",
+    "slug": "combination-sum-ii",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "combinationSum2",
+      "rust": "combination_sum2",
+      "java": "combinationSum2"
+    }
+  },
+  {
+    "id": 41,
+    "title": "First Missing Positive",
+    "slug": "first-missing-positive",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "firstMissingPositive",
+      "rust": "first_missing_positive",
+      "java": "firstMissingPositive"
+    }
+  },
+  {
+    "id": 42,
+    "title": "Trapping Rain Water",
+    "slug": "trapping-rain-water",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "trap",
+      "rust": "trap",
+      "java": "trap"
+    }
+  },
+  {
+    "id": 43,
+    "title": "Multiply Strings",
+    "slug": "multiply-strings",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "multiply",
+      "rust": "multiply",
+      "java": "multiply"
+    }
+  },
+  {
+    "id": 44,
+    "title": "Wildcard Matching",
+    "slug": "wildcard-matching",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "isMatch",
+      "rust": "is_match",
+      "java": "isMatch"
+    }
+  },
+  {
+    "id": 45,
+    "title": "Jump Game II",
+    "slug": "jump-game-ii",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "jump",
+      "rust": "jump",
+      "java": "jump"
+    }
+  },
+  {
+    "id": 46,
+    "title": "Permutations",
+    "slug": "permutations",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "permute",
+      "rust": "permute",
+      "java": "permute"
+    }
+  },
+  {
+    "id": 47,
+    "title": "Permutations II",
+    "slug": "permutations-ii",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "permuteUnique",
+      "rust": "permute_unique",
+      "java": "permuteUnique"
+    }
+  },
+  {
+    "id": 48,
+    "title": "Rotate Image",
+    "slug": "rotate-image",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "rotate",
+      "rust": "rotate",
+      "java": "rotate"
+    }
+  },
+  {
+    "id": 49,
+    "title": "Group Anagrams",
+    "slug": "group-anagrams",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "groupAnagrams",
+      "rust": "group_anagrams",
+      "java": "groupAnagrams"
+    }
+  },
+  {
+    "id": 50,
+    "title": "Pow(x, n)",
+    "slug": "powx-n",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "myPow",
+      "rust": "my_pow",
+      "java": "myPow"
+    }
+  },
+  {
+    "id": 51,
+    "title": "N-Queens",
+    "slug": "n-queens",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "solveNQueens",
+      "rust": "solve_n_queens",
+      "java": "solveNQueens"
+    }
+  },
+  {
+    "id": 52,
+    "title": "N-Queens II",
+    "slug": "n-queens-ii",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "totalNQueens",
+      "rust": "total_n_queens",
+      "java": "totalNQueens"
+    }
+  },
+  {
+    "id": 53,
+    "title": "Maximum Subarray",
+    "slug": "maximum-subarray",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "maxSubArray",
+      "rust": "max_sub_array",
+      "java": "maxSubArray"
+    }
+  },
+  {
+    "id": 54,
+    "title": "Spiral Matrix",
+    "slug": "spiral-matrix",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "spiralOrder",
+      "rust": "spiral_order",
+      "java": "spiralOrder"
+    }
+  },
+  {
+    "id": 55,
+    "title": "Jump Game",
+    "slug": "jump-game",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "canJump",
+      "rust": "can_jump",
+      "java": "canJump"
+    }
+  },
+  {
+    "id": 56,
+    "title": "Merge Intervals",
+    "slug": "merge-intervals",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "merge",
+      "rust": "merge",
+      "java": "merge"
+    }
+  },
+  {
+    "id": 57,
+    "title": "Insert Interval",
+    "slug": "insert-interval",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "insert",
+      "rust": "insert",
+      "java": "insert"
+    }
+  },
+  {
+    "id": 58,
+    "title": "Length of Last Word",
+    "slug": "length-of-last-word",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "lengthOfLastWord",
+      "rust": "length_of_last_word",
+      "java": "lengthOfLastWord"
+    }
+  },
+  {
+    "id": 59,
+    "title": "Spiral Matrix II",
+    "slug": "spiral-matrix-ii",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "generateMatrix",
+      "rust": "generate_matrix",
+      "java": "generateMatrix"
+    }
+  },
+  {
+    "id": 60,
+    "title": "Permutation Sequence",
+    "slug": "permutation-sequence",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "getPermutation",
+      "rust": "get_permutation",
+      "java": "getPermutation"
+    }
+  },
+  {
+    "id": 61,
+    "title": "Rotate List",
+    "slug": "rotate-list",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "rotateRight",
+      "rust": "rotate_right",
+      "java": "rotateRight"
+    }
+  },
+  {
+    "id": 62,
+    "title": "Unique Paths",
+    "slug": "unique-paths",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "uniquePaths",
+      "rust": "unique_paths",
+      "java": "uniquePaths"
+    }
+  },
+  {
+    "id": 63,
+    "title": "Unique Paths II",
+    "slug": "unique-paths-ii",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "uniquePathsWithObstacles",
+      "rust": "unique_paths_with_obstacles",
+      "java": "uniquePathsWithObstacles"
+    }
+  },
+  {
+    "id": 64,
+    "title": "Minimum Path Sum",
+    "slug": "minimum-path-sum",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "minPathSum",
+      "rust": "min_path_sum",
+      "java": "minPathSum"
+    }
+  },
+  {
+    "id": 65,
+    "title": "Valid Number",
+    "slug": "valid-number",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "isNumber",
+      "rust": "is_number",
+      "java": "isNumber"
+    }
+  },
+  {
+    "id": 66,
+    "title": "Plus One",
+    "slug": "plus-one",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "plusOne",
+      "rust": "plus_one",
+      "java": "plusOne"
+    }
+  },
+  {
+    "id": 67,
+    "title": "Add Binary",
+    "slug": "add-binary",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "addBinary",
+      "rust": "add_binary",
+      "java": "addBinary"
+    }
+  },
+  {
+    "id": 68,
+    "title": "Text Justification",
+    "slug": "text-justification",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "fullJustify",
+      "rust": "full_justify",
+      "java": "fullJustify"
+    }
+  },
+  {
+    "id": 69,
+    "title": "Sqrt(x)",
+    "slug": "sqrtx",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "mySqrt",
+      "rust": "my_sqrt",
+      "java": "mySqrt"
+    }
+  },
+  {
+    "id": 70,
+    "title": "Climbing Stairs",
+    "slug": "climbing-stairs",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "climbStairs",
+      "rust": "climb_stairs",
+      "java": "climbStairs"
+    }
+  },
+  {
+    "id": 71,
+    "title": "Simplify Path",
+    "slug": "simplify-path",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "simplifyPath",
+      "rust": "simplify_path",
+      "java": "simplifyPath"
+    }
+  },
+  {
+    "id": 72,
+    "title": "Edit Distance",
+    "slug": "edit-distance",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "minDistance",
+      "rust": "min_distance",
+      "java": "minDistance"
+    }
+  },
+  {
+    "id": 73,
+    "title": "Set Matrix Zeroes",
+    "slug": "set-matrix-zeroes",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "setZeroes",
+      "rust": "set_zeroes",
+      "java": "setZeroes"
+    }
+  },
+  {
+    "id": 74,
+    "title": "Search a 2D Matrix",
+    "slug": "search-a-2d-matrix",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "searchMatrix",
+      "rust": "search_matrix",
+      "java": "searchMatrix"
+    }
+  },
+  {
+    "id": 75,
+    "title": "Sort Colors",
+    "slug": "sort-colors",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "sortColors",
+      "rust": "sort_colors",
+      "java": "sortColors"
+    }
+  },
+  {
+    "id": 76,
+    "title": "Minimum Window Substring",
+    "slug": "minimum-window-substring",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "minWindow",
+      "rust": "min_window",
+      "java": "minWindow"
+    }
+  },
+  {
+    "id": 77,
+    "title": "Combinations",
+    "slug": "combinations",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "combine",
+      "rust": "combine",
+      "java": "combine"
+    }
+  },
+  {
+    "id": 78,
+    "title": "Subsets",
+    "slug": "subsets",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "subsets",
+      "rust": "subsets",
+      "java": "subsets"
+    }
+  },
+  {
+    "id": 79,
+    "title": "Word Search",
+    "slug": "word-search",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "exist",
+      "rust": "exist",
+      "java": "exist"
+    }
+  },
+  {
+    "id": 80,
+    "title": "Remove Duplicates from Sorted Array II",
+    "slug": "remove-duplicates-from-sorted-array-ii",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "removeDuplicates",
+      "rust": "remove_duplicates",
+      "java": "removeDuplicates"
+    }
+  },
+  {
+    "id": 81,
+    "title": "Search in Rotated Sorted Array II",
+    "slug": "search-in-rotated-sorted-array-ii",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "search",
+      "rust": "search",
+      "java": "search"
+    }
+  },
+  {
+    "id": 82,
+    "title": "Remove Duplicates from Sorted List II",
+    "slug": "remove-duplicates-from-sorted-list-ii",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "deleteDuplicates",
+      "rust": "delete_duplicates",
+      "java": "deleteDuplicates"
+    }
+  },
+  {
+    "id": 83,
+    "title": "Remove Duplicates from Sorted List",
+    "slug": "remove-duplicates-from-sorted-list",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "deleteDuplicates",
+      "rust": "delete_duplicates",
+      "java": "deleteDuplicates"
+    }
+  },
+  {
+    "id": 84,
+    "title": "Largest Rectangle in Histogram",
+    "slug": "largest-rectangle-in-histogram",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "largestRectangleArea",
+      "rust": "largest_rectangle_area",
+      "java": "largestRectangleArea"
+    }
+  },
+  {
+    "id": 85,
+    "title": "Maximal Rectangle",
+    "slug": "maximal-rectangle",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "maximalRectangle",
+      "rust": "maximal_rectangle",
+      "java": "maximalRectangle"
+    }
+  },
+  {
+    "id": 86,
+    "title": "Partition List",
+    "slug": "partition-list",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "partition",
+      "rust": "partition",
+      "java": "partition"
+    }
+  },
+  {
+    "id": 87,
+    "title": "Scramble String",
+    "slug": "scramble-string",
+    "difficulty": "Hard",
+    "methods": {
+      "go": "isScramble",
+      "rust": "is_scramble",
+      "java": "isScramble"
+    }
+  },
+  {
+    "id": 88,
+    "title": "Merge Sorted Array",
+    "slug": "merge-sorted-array",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "merge",
+      "rust": "merge",
+      "java": "merge"
+    }
+  },
+  {
+    "id": 89,
+    "title": "Gray Code",
+    "slug": "gray-code",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "grayCode",
+      "rust": "gray_code",
+      "java": "grayCode"
+    }
+  },
+  {
+    "id": 90,
+    "title": "Subsets II",
+    "slug": "subsets-ii",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "subsetsWithDup",
+      "rust": "subsets_with_dup",
+      "java": "subsetsWithDup"
+    }
+  },
+  {
+    "id": 91,
+    "title": "Decode Ways",
+    "slug": "decode-ways",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "numDecodings",
+      "rust": "num_decodings",
+      "java": "numDecodings"
+    }
+  },
+  {
+    "id": 92,
+    "title": "Reverse Linked List II",
+    "slug": "reverse-linked-list-ii",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "reverseBetween",
+      "rust": "reverse_between",
+      "java": "reverseBetween"
+    }
+  },
+  {
+    "id": 93,
+    "title": "Restore IP Addresses",
+    "slug": "restore-ip-addresses",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "restoreIpAddresses",
+      "rust": "restore_ip_addresses",
+      "java": "restoreIpAddresses"
+    }
+  },
+  {
+    "id": 94,
+    "title": "Binary Tree Inorder Traversal",
+    "slug": "binary-tree-inorder-traversal",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "inorderTraversal",
+      "rust": "inorder_traversal",
+      "java": "inorderTraversal"
+    }
+  },
+  {
+    "id": 95,
+    "title": "Unique Binary Search Trees II",
+    "slug": "unique-binary-search-trees-ii",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "generateTrees",
+      "rust": "generate_trees",
+      "java": "generateTrees"
+    }
+  },
+  {
+    "id": 96,
+    "title": "Unique Binary Search Trees",
+    "slug": "unique-binary-search-trees",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "numTrees",
+      "rust": "num_trees",
+      "java": "numTrees"
+    }
+  },
+  {
+    "id": 97,
+    "title": "Interleaving String",
+    "slug": "interleaving-string",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "isInterleave",
+      "rust": "is_interleave",
+      "java": "isInterleave"
+    }
+  },
+  {
+    "id": 98,
+    "title": "Validate Binary Search Tree",
+    "slug": "validate-binary-search-tree",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "isValidBST",
+      "rust": "is_valid_bst",
+      "java": "isValidBST"
+    }
+  },
+  {
+    "id": 99,
+    "title": "Recover Binary Search Tree",
+    "slug": "recover-binary-search-tree",
+    "difficulty": "Medium",
+    "methods": {
+      "go": "recoverTree",
+      "rust": "recover_tree",
+      "java": "recoverTree"
+    }
+  },
+  {
+    "id": 100,
+    "title": "Same Tree",
+    "slug": "same-tree",
+    "difficulty": "Easy",
+    "methods": {
+      "go": "isSameTree",
+      "rust": "is_same_tree",
+      "java": "isSameTree"
+    }
+  }
+]
