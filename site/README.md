@@ -48,15 +48,13 @@ Snapshots show values and tree/list structure; they do not model pointer identit
 
 The verification scripts check all 100 canonical outputs and source-line traces in both native Go and the exact WebAssembly artifact, plus validation errors and a changed custom input. Go unit tests cover instrumentation scopes, loops, closures, snapshot isolation, cycles, and resource limits. These are regression checks, not exhaustive proofs.
 
-## Publish later on GitHub Pages
+## GitHub Pages publication
 
-The repository stays private and Pages stays disabled until publication is chosen. The prepared static output is pushed to the `gh-pages` branch; this does not itself configure or enable Pages.
+**Live site: [Algo Atlas](https://fivenan.github.io/leetcode-solution/).** The repository is public and GitHub Pages publishes from **gh-pages / (root)**.
 
-Choose one publishing method later:
+Release updates with either publishing method:
 
-1. **Prepared branch:** in the repository's Settings → Pages, select **Deploy from a branch**, then **gh-pages / (root)**. That publishes the prepared snapshot. Future source edits require a fresh build and update to that branch.
+1. **Current branch setup:** build and verify the site, then update **gh-pages / (root)** with the contents of `site/dist/`. GitHub Pages publishes changes pushed to that branch. Source edits on `main` alone do not update the live site.
 2. **Rebuild with Actions:** in Settings → Pages, select **GitHub Actions**, then manually run **Algorithm explorer** from `main` with **publish** checked. The workflow builds, tests, and publishes the current sources. Pushes and pull requests only build and verify; they do not deploy.
-
-If the account's plan requires public visibility for Pages, change repository visibility when choosing to publish. Review the repository's contents before that change. The expected project URL after activation is `https://fivenan.github.io/leetcode-solution/`; it is not a live site until GitHub reports a successful deployment.
 
 The workflow stores a Pages-ready artifact on every successful main-branch build. Source changes belong on `main`; compiled assets belong on `gh-pages`. All static asset paths are relative, including the WebAssembly fetch, so either publishing method works at the repository subpath.

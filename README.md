@@ -46,6 +46,8 @@ GitHub Actions runs the structure check, all three language checks, and the inde
 
 The **Algo Atlas** website runs these Go solutions in your browser using WebAssembly. Choose any of the 100 problems, edit its JSON arguments, and step through the actual algorithm with highlighted source lines and detached variable snapshots. Playback, a timeline, searchable problem navigation, and the accompanying explanations help connect the code to its changing state. Everything runs locally in a browser worker; the site needs no backend or third-party JavaScript packages.
 
+**[Open Algo Atlas](https://fivenan.github.io/leetcode-solution/)**
+
 Build with Node.js 24 and Go 1.23 or newer:
 
 ```sh
@@ -60,7 +62,7 @@ go run ./cmd/serve
 
 Open the printed loopback URL. The static output is in `site/dist/`; generated isolated Go packages are in `site/generated/`. Both are ignored and reproducible from the original snippets. See [the explorer guide](site/README.md) for input formats, tracing limits, and publication instructions.
 
-The [`gh-pages` branch](https://github.com/Fivenan/leetcode-solution/tree/gh-pages) holds a prepared static build. GitHub Pages publication is separate. The [Algorithm explorer workflow](.github/workflows/explorer.yml) checks the website and stores a Pages artifact on pushes; its deployment job runs only when manually requested with **publish** enabled.
+GitHub Pages publishes the static build from the [`gh-pages` branch](https://github.com/Fivenan/leetcode-solution/tree/gh-pages). Update that branch after rebuilding to release site changes. The [Algorithm explorer workflow](.github/workflows/explorer.yml) checks the website and stores a Pages artifact on pushes; its optional deployment job runs only when manually requested with **publish** enabled.
 
 ## Problem index
 
