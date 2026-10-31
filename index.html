@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f0">
+  <meta name="description" content="Explore the first 100 LeetCode algorithms. Run original Go solutions and inspect every execution step in your browser.">
+  <title>Algo Atlas · Learn by stepping through</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to algorithm</a>
+  <aside class="sidebar" id="navigation" aria-label="Problem library">
+    <a class="brand" href="#problem=1"><span class="brand-mark" aria-hidden="true">a<span>↗</span></span><span>algo atlas<span class="brand-sub">A FIELD GUIDE TO ALGORITHMS</span></span></a>
+    <div class="library-heading"><span>THE COLLECTION</span><span class="count">001—100</span></div>
+    <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find an algorithm…" aria-label="Search problems by number, name or category"><kbd>/</kbd></label>
+    <div class="filters"><label class="sr-only" for="difficulty">Difficulty</label><select id="difficulty"><option value="">All levels</option><option>Easy</option><option>Medium</option><option>Hard</option></select><label class="sr-only" for="category">Category</label><select id="category"><option value="">All topics</option></select></div>
+    <div class="list-meta"><span id="result-count">Loading collection…</span><span>GO ↗</span></div>
+    <nav id="problem-list" aria-label="Algorithms"></nav>
+    <div class="sidebar-footer"><span class="live-dot"></span> Original Go. Real execution.<small>100 problems. A hundred ways to think.</small></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><button class="mobile-toggle" id="menu-toggle" aria-expanded="false" aria-controls="navigation">☰ <span>Library</span></button><span class="breadcrumb">THE COLLECTION <span>/</span> <span id="breadcrumb-category">ALGORITHMS</span></span><span class="runtime-status" id="runtime-status" role="status"><span class="live-dot"></span>Starting Go engine</span></header>
+    <main id="main" tabindex="-1">
+      <section class="problem-header"><div class="eyebrow"><span id="problem-number">PROBLEM 001</span><span class="tiny-rule"></span><span>LEARN BY DOING</span></div><h1 id="problem-title">Your next lightbulb moment.</h1><div class="problem-meta"><span id="problem-difficulty" class="tag">Go</span><span class="tag topic" id="problem-category">Algorithms</span><span class="execution-note">Executed locally with Go + WebAssembly</span></div><p id="problem-intro" class="intro">Loading the first 100 algorithms…</p></section>
+      <div id="global-error" class="error-box" role="alert" hidden></div>
+      <div class="studio-grid">
+        <section class="panel visualization-panel" aria-labelledby="visual-title">
+          <div class="panel-header"><h2 id="visual-title"><span class="panel-icon" aria-hidden="true">▦</span> Execution canvas</h2><span class="mono subtle" id="step-label">READY TO EXPLORE</span></div>
+          <div class="canvas-top"><span class="canvas-caption" id="step-caption">A closer look at the algorithm</span><span class="state-pill" id="play-state">PAUSED</span></div>
+          <div id="visualization" class="visualization"><div class="canvas-empty"><span class="empty-symbol">[ ]</span><p>The original Go solution is getting ready.</p><small>Run an input to see its values take shape.</small></div></div>
+          <div class="statement"><span class="live-dot"></span><code id="current-statement">Waiting for execution</code></div>
+          <div class="playback"><div class="transport"><button id="first" title="First step" aria-label="First step">|‹</button><button id="previous" title="Previous step" aria-label="Previous step">‹</button><button id="play" class="play-button" aria-label="Play execution">▶</button><button id="next" title="Next step" aria-label="Next step">›</button><button id="last" title="Last step" aria-label="Last step">›|</button></div><label class="speed-label">Speed <select id="speed" aria-label="Playback speed"><option value="1200">0.5×</option><option value="600" selected>1×</option><option value="300">2×</option><option value="100">6×</option></select></label></div>
+          <div class="timeline"><input id="scrubber" type="range" min="0" max="0" value="0" aria-label="Execution step"><div><span>EXECUTION TIMELINE</span><span id="timeline-count">0 / 0</span></div></div>
+          <div class="output"><span class="label">RETURN VALUE</span><code id="output">—</code><span id="trace-note" class="subtle"></span></div>
+        </section>
+        <section class="panel input-panel" aria-labelledby="input-title"><div class="panel-header"><h2 id="input-title"><span class="panel-icon" aria-hidden="true">⌘</span> Make it your own</h2><span class="mono subtle">INPUT LAB</span></div><div class="input-body"><label for="input">Arguments <span class="subtle">· positional JSON array</span></label><p id="params" class="param-help"></p><textarea id="input" spellcheck="false" aria-describedby="params input-help" rows="4"></textarea><p class="input-help" id="input-help">Edit the values, then run to explore a different path.</p><div class="input-actions"><button id="reset-input" class="text-button">↺ Reset example</button><button id="run" class="primary-button">Run algorithm <span aria-hidden="true">↗</span></button></div><div id="input-error" class="input-error" role="alert" hidden></div></div><div class="watch-header"><h3>Watch state</h3><span class="mono subtle" id="watch-count">0 VARIABLES</span></div><div id="watch" class="watch"><p class="subtle">Variables appear as you step through.</p></div><div class="learning-note"><span aria-hidden="true">✳</span><p><strong>One statement at a time.</strong> Each snapshot shows state <em>before</em> the highlighted line runs. The return value is shown separately.</p></div></section>
+      </div>
+      <section class="panel detail-panel"><div class="detail-tabs" role="tablist" aria-label="Algorithm details"><button role="tab" id="source-tab" aria-selected="true" aria-controls="source-panel" tabindex="0">Source code <span>GO</span></button><button role="tab" id="explanation-tab" aria-selected="false" aria-controls="explanation-panel" tabindex="-1">The idea</button><button role="tab" id="complexity-tab" aria-selected="false" aria-controls="complexity-panel" tabindex="-1">Complexity</button><span class="source-hint">FOLLOW THE HIGHLIGHTED LINE ↓</span></div><div id="source-panel" role="tabpanel" aria-labelledby="source-tab"><div class="source-toolbar"><span id="source-name">solution.go</span><span>Original solution · instrumented in Go</span></div><pre id="source" class="source" tabindex="0" aria-label="Go source code"></pre></div><div id="explanation-panel" class="prose" role="tabpanel" aria-labelledby="explanation-tab" hidden></div><div id="complexity-panel" class="prose" role="tabpanel" aria-labelledby="complexity-tab" hidden></div></section>
+      <footer class="page-footer"><span>algo atlas <span class="subtle">/ Small steps. Deeper understanding.</span></span><span>BUILT WITH GO · RUNS IN YOUR BROWSER</span></footer>
+    </main>
+  </div>
+</body>
+</html>
