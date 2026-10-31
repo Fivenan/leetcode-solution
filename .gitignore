@@ -6,3 +6,7 @@
 *.exe
 *.out
 target/
+
+# Reproducible explorer output and generated isolated Go packages.
+site/dist/
+site/generated/

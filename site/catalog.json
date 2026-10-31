@@ -1,0 +1,2823 @@
+[
+  {
+    "id": 1,
+    "title": "Two Sum",
+    "slug": "two-sum",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        2,
+        7,
+        11,
+        15
+      ],
+      9
+    ],
+    "expected": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Add Two Numbers",
+    "slug": "add-two-numbers",
+    "difficulty": "Medium",
+    "category": "Linked Lists",
+    "params": [
+      {
+        "name": "l1",
+        "type": "linked list (integer array)"
+      },
+      {
+        "name": "l2",
+        "type": "linked list (integer array)"
+      }
+    ],
+    "example": [
+      [
+        2,
+        4,
+        3
+      ],
+      [
+        5,
+        6,
+        4
+      ]
+    ],
+    "expected": [
+      7,
+      0,
+      8
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Longest Substring Without Repeating Characters",
+    "slug": "longest-substring-without-repeating-characters",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "abcabcbb"
+    ],
+    "expected": 3
+  },
+  {
+    "id": 4,
+    "title": "Median of Two Sorted Arrays",
+    "slug": "median-of-two-sorted-arrays",
+    "difficulty": "Hard",
+    "category": "Binary Search",
+    "params": [
+      {
+        "name": "nums1",
+        "type": "integer array"
+      },
+      {
+        "name": "nums2",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        1,
+        3
+      ],
+      [
+        2
+      ]
+    ],
+    "expected": 2
+  },
+  {
+    "id": 5,
+    "title": "Longest Palindromic Substring",
+    "slug": "longest-palindromic-substring",
+    "difficulty": "Medium",
+    "category": "Dynamic Programming",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "cbbd"
+    ],
+    "expected": "bb"
+  },
+  {
+    "id": 6,
+    "title": "Zigzag Conversion",
+    "slug": "zigzag-conversion",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "numRows",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      "PAYPALISHIRING",
+      3
+    ],
+    "expected": "PAHNAPLSIIGYIR"
+  },
+  {
+    "id": 7,
+    "title": "Reverse Integer",
+    "slug": "reverse-integer",
+    "difficulty": "Medium",
+    "category": "Math",
+    "params": [
+      {
+        "name": "x",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      123
+    ],
+    "expected": 321
+  },
+  {
+    "id": 8,
+    "title": "String to Integer (atoi)",
+    "slug": "string-to-integer-atoi",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "   -42"
+    ],
+    "expected": -42
+  },
+  {
+    "id": 9,
+    "title": "Palindrome Number",
+    "slug": "palindrome-number",
+    "difficulty": "Easy",
+    "category": "Math",
+    "params": [
+      {
+        "name": "x",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      121
+    ],
+    "expected": true
+  },
+  {
+    "id": 10,
+    "title": "Regular Expression Matching",
+    "slug": "regular-expression-matching",
+    "difficulty": "Hard",
+    "category": "Dynamic Programming",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "p",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "aab",
+      "c*a*b"
+    ],
+    "expected": true
+  },
+  {
+    "id": 11,
+    "title": "Container With Most Water",
+    "slug": "container-with-most-water",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "height",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        1,
+        8,
+        6,
+        2,
+        5,
+        4,
+        8,
+        3,
+        7
+      ]
+    ],
+    "expected": 49
+  },
+  {
+    "id": 12,
+    "title": "Integer to Roman",
+    "slug": "integer-to-roman",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "num",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      1994
+    ],
+    "expected": "MCMXCIV"
+  },
+  {
+    "id": 13,
+    "title": "Roman to Integer",
+    "slug": "roman-to-integer",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "MCMXCIV"
+    ],
+    "expected": 1994
+  },
+  {
+    "id": 14,
+    "title": "Longest Common Prefix",
+    "slug": "longest-common-prefix",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "strs",
+        "type": "string array"
+      }
+    ],
+    "example": [
+      [
+        "flower",
+        "flow",
+        "flight"
+      ]
+    ],
+    "expected": "fl"
+  },
+  {
+    "id": 15,
+    "title": "3Sum",
+    "slug": "3sum",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        -1,
+        0,
+        1,
+        2,
+        -1,
+        -4
+      ]
+    ],
+    "expected": [
+      [
+        -1,
+        -1,
+        2
+      ],
+      [
+        -1,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 16,
+    "title": "3Sum Closest",
+    "slug": "3sum-closest",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        -1,
+        2,
+        1,
+        -4
+      ],
+      1
+    ],
+    "expected": 2
+  },
+  {
+    "id": 17,
+    "title": "Letter Combinations of a Phone Number",
+    "slug": "letter-combinations-of-a-phone-number",
+    "difficulty": "Medium",
+    "category": "Backtracking",
+    "params": [
+      {
+        "name": "digits",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "23"
+    ],
+    "expected": [
+      "ad",
+      "ae",
+      "af",
+      "bd",
+      "be",
+      "bf",
+      "cd",
+      "ce",
+      "cf"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "4Sum",
+    "slug": "4sum",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        1,
+        0,
+        -1,
+        0,
+        -2,
+        2
+      ],
+      0
+    ],
+    "expected": [
+      [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      [
+        -2,
+        0,
+        0,
+        2
+      ],
+      [
+        -1,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Remove Nth Node From End of List",
+    "slug": "remove-nth-node-from-end-of-list",
+    "difficulty": "Medium",
+    "category": "Linked Lists",
+    "params": [
+      {
+        "name": "head",
+        "type": "linked list (integer array)"
+      },
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      2
+    ],
+    "expected": [
+      1,
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Valid Parentheses",
+    "slug": "valid-parentheses",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "([])"
+    ],
+    "expected": true
+  },
+  {
+    "id": 21,
+    "title": "Merge Two Sorted Lists",
+    "slug": "merge-two-sorted-lists",
+    "difficulty": "Easy",
+    "category": "Linked Lists",
+    "params": [
+      {
+        "name": "list1",
+        "type": "linked list (integer array)"
+      },
+      {
+        "name": "list2",
+        "type": "linked list (integer array)"
+      }
+    ],
+    "example": [
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        3,
+        4
+      ]
+    ],
+    "expected": [
+      1,
+      1,
+      2,
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Generate Parentheses",
+    "slug": "generate-parentheses",
+    "difficulty": "Medium",
+    "category": "Backtracking",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      3
+    ],
+    "expected": [
+      "((()))",
+      "(()())",
+      "(())()",
+      "()(())",
+      "()()()"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Merge k Sorted Lists",
+    "slug": "merge-k-sorted-lists",
+    "difficulty": "Hard",
+    "category": "Linked Lists",
+    "params": [
+      {
+        "name": "lists",
+        "type": "array of linked lists"
+      }
+    ],
+    "example": [
+      [
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          6
+        ]
+      ]
+    ],
+    "expected": [
+      1,
+      1,
+      2,
+      3,
+      4,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Swap Nodes in Pairs",
+    "slug": "swap-nodes-in-pairs",
+    "difficulty": "Medium",
+    "category": "Linked Lists",
+    "params": [
+      {
+        "name": "head",
+        "type": "linked list (integer array)"
+      }
+    ],
+    "example": [
+      [
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    "expected": [
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Reverse Nodes in k-Group",
+    "slug": "reverse-nodes-in-k-group",
+    "difficulty": "Hard",
+    "category": "Linked Lists",
+    "params": [
+      {
+        "name": "head",
+        "type": "linked list (integer array)"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      2
+    ],
+    "expected": [
+      2,
+      1,
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Remove Duplicates from Sorted Array",
+    "slug": "remove-duplicates-from-sorted-array",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        1,
+        1,
+        2
+      ]
+    ],
+    "expected": {
+      "length": 2,
+      "nums": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "title": "Remove Element",
+    "slug": "remove-element",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      },
+      {
+        "name": "val",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        3,
+        2,
+        2,
+        3
+      ],
+      3
+    ],
+    "expected": {
+      "length": 2,
+      "nums": [
+        2,
+        2
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "title": "Find the Index of the First Occurrence in a String",
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "sadbutsad",
+      "sad"
+    ],
+    "expected": 0
+  },
+  {
+    "id": 29,
+    "title": "Divide Two Integers",
+    "slug": "divide-two-integers",
+    "difficulty": "Medium",
+    "category": "Math",
+    "params": [
+      {
+        "name": "dividend",
+        "type": "integer"
+      },
+      {
+        "name": "divisor",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      10,
+      3
+    ],
+    "expected": 3
+  },
+  {
+    "id": 30,
+    "title": "Substring with Concatenation of All Words",
+    "slug": "substring-with-concatenation-of-all-words",
+    "difficulty": "Hard",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "words",
+        "type": "string array"
+      }
+    ],
+    "example": [
+      "barfoothefoobarman",
+      [
+        "foo",
+        "bar"
+      ]
+    ],
+    "expected": [
+      0,
+      9
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Next Permutation",
+    "slug": "next-permutation",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "expected": [
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Longest Valid Parentheses",
+    "slug": "longest-valid-parentheses",
+    "difficulty": "Hard",
+    "category": "Dynamic Programming",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "example": [
+      ")()())"
+    ],
+    "expected": 4
+  },
+  {
+    "id": 33,
+    "title": "Search in Rotated Sorted Array",
+    "slug": "search-in-rotated-sorted-array",
+    "difficulty": "Medium",
+    "category": "Binary Search",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        4,
+        5,
+        6,
+        7,
+        0,
+        1,
+        2
+      ],
+      0
+    ],
+    "expected": 4
+  },
+  {
+    "id": 34,
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "slug": "find-first-and-last-position-of-element-in-sorted-array",
+    "difficulty": "Medium",
+    "category": "Binary Search",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        5,
+        7,
+        7,
+        8,
+        8,
+        10
+      ],
+      8
+    ],
+    "expected": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Search Insert Position",
+    "slug": "search-insert-position",
+    "difficulty": "Easy",
+    "category": "Binary Search",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        1,
+        3,
+        5,
+        6
+      ],
+      2
+    ],
+    "expected": 1
+  },
+  {
+    "id": 36,
+    "title": "Valid Sudoku",
+    "slug": "valid-sudoku",
+    "difficulty": "Medium",
+    "category": "Matrices",
+    "params": [
+      {
+        "name": "board",
+        "type": "board (array of strings)"
+      }
+    ],
+    "example": [
+      [
+        "53..7....",
+        "6..195...",
+        ".98....6.",
+        "8...6...3",
+        "4..8.3..1",
+        "7...2...6",
+        ".6....28.",
+        "...419..5",
+        "....8..79"
+      ]
+    ],
+    "expected": true
+  },
+  {
+    "id": 37,
+    "title": "Sudoku Solver",
+    "slug": "sudoku-solver",
+    "difficulty": "Hard",
+    "category": "Backtracking",
+    "params": [
+      {
+        "name": "board",
+        "type": "board (array of strings)"
+      }
+    ],
+    "example": [
+      [
+        ".34678912",
+        "6.2195348",
+        "19.342567",
+        "859.61423",
+        "4268.3791",
+        "71392.856",
+        "961537.84",
+        "2874196.5",
+        "34528617."
+      ]
+    ],
+    "expected": [
+      "534678912",
+      "672195348",
+      "198342567",
+      "859761423",
+      "426853791",
+      "713924856",
+      "961537284",
+      "287419635",
+      "345286179"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Count and Say",
+    "slug": "count-and-say",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      4
+    ],
+    "expected": "1211"
+  },
+  {
+    "id": 39,
+    "title": "Combination Sum",
+    "slug": "combination-sum",
+    "difficulty": "Medium",
+    "category": "Backtracking",
+    "params": [
+      {
+        "name": "candidates",
+        "type": "integer array"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        2,
+        3,
+        6,
+        7
+      ],
+      7
+    ],
+    "expected": [
+      [
+        2,
+        2,
+        3
+      ],
+      [
+        7
+      ]
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Combination Sum II",
+    "slug": "combination-sum-ii",
+    "difficulty": "Medium",
+    "category": "Backtracking",
+    "params": [
+      {
+        "name": "candidates",
+        "type": "integer array"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        10,
+        1,
+        2,
+        7,
+        6,
+        1,
+        5
+      ],
+      8
+    ],
+    "expected": [
+      [
+        1,
+        1,
+        6
+      ],
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        6
+      ]
+    ]
+  },
+  {
+    "id": 41,
+    "title": "First Missing Positive",
+    "slug": "first-missing-positive",
+    "difficulty": "Hard",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        3,
+        4,
+        -1,
+        1
+      ]
+    ],
+    "expected": 2
+  },
+  {
+    "id": 42,
+    "title": "Trapping Rain Water",
+    "slug": "trapping-rain-water",
+    "difficulty": "Hard",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "height",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        3,
+        2,
+        1,
+        2,
+        1
+      ]
+    ],
+    "expected": 6
+  },
+  {
+    "id": 43,
+    "title": "Multiply Strings",
+    "slug": "multiply-strings",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "num1",
+        "type": "string"
+      },
+      {
+        "name": "num2",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "123",
+      "456"
+    ],
+    "expected": "56088"
+  },
+  {
+    "id": 44,
+    "title": "Wildcard Matching",
+    "slug": "wildcard-matching",
+    "difficulty": "Hard",
+    "category": "Dynamic Programming",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "p",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "adceb",
+      "*a*b"
+    ],
+    "expected": true
+  },
+  {
+    "id": 45,
+    "title": "Jump Game II",
+    "slug": "jump-game-ii",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        2,
+        3,
+        1,
+        1,
+        4
+      ]
+    ],
+    "expected": 2
+  },
+  {
+    "id": 46,
+    "title": "Permutations",
+    "slug": "permutations",
+    "difficulty": "Medium",
+    "category": "Backtracking",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        1,
+        2
+      ]
+    ],
+    "expected": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Permutations II",
+    "slug": "permutations-ii",
+    "difficulty": "Medium",
+    "category": "Backtracking",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        1,
+        1,
+        2
+      ]
+    ],
+    "expected": [
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Rotate Image",
+    "slug": "rotate-image",
+    "difficulty": "Medium",
+    "category": "Matrices",
+    "params": [
+      {
+        "name": "matrix",
+        "type": "integer matrix"
+      }
+    ],
+    "example": [
+      [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    ],
+    "expected": [
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        2
+      ]
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Group Anagrams",
+    "slug": "group-anagrams",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "strs",
+        "type": "string array"
+      }
+    ],
+    "example": [
+      [
+        "eat",
+        "tea",
+        "tan",
+        "ate",
+        "nat",
+        "bat"
+      ]
+    ],
+    "expected": [
+      [
+        "eat",
+        "tea",
+        "ate"
+      ],
+      [
+        "tan",
+        "nat"
+      ],
+      [
+        "bat"
+      ]
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Pow(x, n)",
+    "slug": "powx-n",
+    "difficulty": "Medium",
+    "category": "Math",
+    "params": [
+      {
+        "name": "x",
+        "type": "number"
+      },
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      2,
+      10
+    ],
+    "expected": 1024
+  },
+  {
+    "id": 51,
+    "title": "N-Queens",
+    "slug": "n-queens",
+    "difficulty": "Hard",
+    "category": "Backtracking",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      4
+    ],
+    "expected": [
+      [
+        ".Q..",
+        "...Q",
+        "Q...",
+        "..Q."
+      ],
+      [
+        "..Q.",
+        "Q...",
+        "...Q",
+        ".Q.."
+      ]
+    ]
+  },
+  {
+    "id": 52,
+    "title": "N-Queens II",
+    "slug": "n-queens-ii",
+    "difficulty": "Hard",
+    "category": "Backtracking",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      4
+    ],
+    "expected": 2
+  },
+  {
+    "id": 53,
+    "title": "Maximum Subarray",
+    "slug": "maximum-subarray",
+    "difficulty": "Medium",
+    "category": "Dynamic Programming",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        -2,
+        1,
+        -3,
+        4,
+        -1,
+        2,
+        1,
+        -5,
+        4
+      ]
+    ],
+    "expected": 6
+  },
+  {
+    "id": 54,
+    "title": "Spiral Matrix",
+    "slug": "spiral-matrix",
+    "difficulty": "Medium",
+    "category": "Matrices",
+    "params": [
+      {
+        "name": "matrix",
+        "type": "integer matrix"
+      }
+    ],
+    "example": [
+      [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          7,
+          8,
+          9
+        ]
+      ]
+    ],
+    "expected": [
+      1,
+      2,
+      3,
+      6,
+      9,
+      8,
+      7,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Jump Game",
+    "slug": "jump-game",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        2,
+        3,
+        1,
+        1,
+        4
+      ]
+    ],
+    "expected": true
+  },
+  {
+    "id": 56,
+    "title": "Merge Intervals",
+    "slug": "merge-intervals",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "intervals",
+        "type": "integer matrix"
+      }
+    ],
+    "example": [
+      [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          15,
+          18
+        ]
+      ]
+    ],
+    "expected": [
+      [
+        1,
+        6
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        15,
+        18
+      ]
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Insert Interval",
+    "slug": "insert-interval",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "intervals",
+        "type": "integer matrix"
+      },
+      {
+        "name": "newInterval",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        [
+          1,
+          3
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "expected": [
+      [
+        1,
+        5
+      ],
+      [
+        6,
+        9
+      ]
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Length of Last Word",
+    "slug": "length-of-last-word",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "Hello World"
+    ],
+    "expected": 5
+  },
+  {
+    "id": 59,
+    "title": "Spiral Matrix II",
+    "slug": "spiral-matrix-ii",
+    "difficulty": "Medium",
+    "category": "Matrices",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      3
+    ],
+    "expected": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        8,
+        9,
+        4
+      ],
+      [
+        7,
+        6,
+        5
+      ]
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Permutation Sequence",
+    "slug": "permutation-sequence",
+    "difficulty": "Hard",
+    "category": "Backtracking",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      3,
+      3
+    ],
+    "expected": "213"
+  },
+  {
+    "id": 61,
+    "title": "Rotate List",
+    "slug": "rotate-list",
+    "difficulty": "Medium",
+    "category": "Linked Lists",
+    "params": [
+      {
+        "name": "head",
+        "type": "linked list (integer array)"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      2
+    ],
+    "expected": [
+      4,
+      5,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Unique Paths",
+    "slug": "unique-paths",
+    "difficulty": "Medium",
+    "category": "Dynamic Programming",
+    "params": [
+      {
+        "name": "m",
+        "type": "integer"
+      },
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      3,
+      7
+    ],
+    "expected": 28
+  },
+  {
+    "id": 63,
+    "title": "Unique Paths II",
+    "slug": "unique-paths-ii",
+    "difficulty": "Medium",
+    "category": "Dynamic Programming",
+    "params": [
+      {
+        "name": "obstacleGrid",
+        "type": "integer matrix"
+      }
+    ],
+    "example": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "expected": 2
+  },
+  {
+    "id": 64,
+    "title": "Minimum Path Sum",
+    "slug": "minimum-path-sum",
+    "difficulty": "Medium",
+    "category": "Dynamic Programming",
+    "params": [
+      {
+        "name": "grid",
+        "type": "integer matrix"
+      }
+    ],
+    "example": [
+      [
+        [
+          1,
+          3,
+          1
+        ],
+        [
+          1,
+          5,
+          1
+        ],
+        [
+          4,
+          2,
+          1
+        ]
+      ]
+    ],
+    "expected": 7
+  },
+  {
+    "id": 65,
+    "title": "Valid Number",
+    "slug": "valid-number",
+    "difficulty": "Hard",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "-0.1"
+    ],
+    "expected": true
+  },
+  {
+    "id": 66,
+    "title": "Plus One",
+    "slug": "plus-one",
+    "difficulty": "Easy",
+    "category": "Math",
+    "params": [
+      {
+        "name": "digits",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "expected": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Add Binary",
+    "slug": "add-binary",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "a",
+        "type": "string"
+      },
+      {
+        "name": "b",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "11",
+      "1"
+    ],
+    "expected": "100"
+  },
+  {
+    "id": 68,
+    "title": "Text Justification",
+    "slug": "text-justification",
+    "difficulty": "Hard",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "words",
+        "type": "string array"
+      },
+      {
+        "name": "maxWidth",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        "This",
+        "is",
+        "an",
+        "example",
+        "of",
+        "text",
+        "justification."
+      ],
+      16
+    ],
+    "expected": [
+      "This    is    an",
+      "example  of text",
+      "justification.  "
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Sqrt(x)",
+    "slug": "sqrtx",
+    "difficulty": "Easy",
+    "category": "Binary Search",
+    "params": [
+      {
+        "name": "x",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      8
+    ],
+    "expected": 2
+  },
+  {
+    "id": 70,
+    "title": "Climbing Stairs",
+    "slug": "climbing-stairs",
+    "difficulty": "Easy",
+    "category": "Dynamic Programming",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      3
+    ],
+    "expected": 3
+  },
+  {
+    "id": 71,
+    "title": "Simplify Path",
+    "slug": "simplify-path",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "/home//foo/../bar/"
+    ],
+    "expected": "/home/bar"
+  },
+  {
+    "id": 72,
+    "title": "Edit Distance",
+    "slug": "edit-distance",
+    "difficulty": "Medium",
+    "category": "Dynamic Programming",
+    "params": [
+      {
+        "name": "word1",
+        "type": "string"
+      },
+      {
+        "name": "word2",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "horse",
+      "ros"
+    ],
+    "expected": 3
+  },
+  {
+    "id": 73,
+    "title": "Set Matrix Zeroes",
+    "slug": "set-matrix-zeroes",
+    "difficulty": "Medium",
+    "category": "Matrices",
+    "params": [
+      {
+        "name": "matrix",
+        "type": "integer matrix"
+      }
+    ],
+    "example": [
+      [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ]
+    ],
+    "expected": [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Search a 2D Matrix",
+    "slug": "search-a-2d-matrix",
+    "difficulty": "Medium",
+    "category": "Binary Search",
+    "params": [
+      {
+        "name": "matrix",
+        "type": "integer matrix"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        [
+          1,
+          3,
+          5,
+          7
+        ],
+        [
+          10,
+          11,
+          16,
+          20
+        ],
+        [
+          23,
+          30,
+          34,
+          60
+        ]
+      ],
+      3
+    ],
+    "expected": true
+  },
+  {
+    "id": 75,
+    "title": "Sort Colors",
+    "slug": "sort-colors",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        2,
+        0,
+        2,
+        1,
+        1,
+        0
+      ]
+    ],
+    "expected": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Minimum Window Substring",
+    "slug": "minimum-window-substring",
+    "difficulty": "Hard",
+    "category": "Strings",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "t",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "ADOBECODEBANC",
+      "ABC"
+    ],
+    "expected": "BANC"
+  },
+  {
+    "id": 77,
+    "title": "Combinations",
+    "slug": "combinations",
+    "difficulty": "Medium",
+    "category": "Backtracking",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      4,
+      2
+    ],
+    "expected": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Subsets",
+    "slug": "subsets",
+    "difficulty": "Medium",
+    "category": "Backtracking",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        1,
+        2
+      ]
+    ],
+    "expected": [
+      [],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Word Search",
+    "slug": "word-search",
+    "difficulty": "Medium",
+    "category": "Backtracking",
+    "params": [
+      {
+        "name": "board",
+        "type": "board (array of strings)"
+      },
+      {
+        "name": "word",
+        "type": "string"
+      }
+    ],
+    "example": [
+      [
+        "ABCE",
+        "SFCS",
+        "ADEE"
+      ],
+      "ABCCED"
+    ],
+    "expected": true
+  },
+  {
+    "id": 80,
+    "title": "Remove Duplicates from Sorted Array II",
+    "slug": "remove-duplicates-from-sorted-array-ii",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        3
+      ]
+    ],
+    "expected": {
+      "length": 7,
+      "nums": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        3,
+        3
+      ]
+    }
+  },
+  {
+    "id": 81,
+    "title": "Search in Rotated Sorted Array II",
+    "slug": "search-in-rotated-sorted-array-ii",
+    "difficulty": "Medium",
+    "category": "Binary Search",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        2,
+        5,
+        6,
+        0,
+        0,
+        1,
+        2
+      ],
+      0
+    ],
+    "expected": true
+  },
+  {
+    "id": 82,
+    "title": "Remove Duplicates from Sorted List II",
+    "slug": "remove-duplicates-from-sorted-list-ii",
+    "difficulty": "Medium",
+    "category": "Linked Lists",
+    "params": [
+      {
+        "name": "head",
+        "type": "linked list (integer array)"
+      }
+    ],
+    "example": [
+      [
+        1,
+        2,
+        3,
+        3,
+        4,
+        4,
+        5
+      ]
+    ],
+    "expected": [
+      1,
+      2,
+      5
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Remove Duplicates from Sorted List",
+    "slug": "remove-duplicates-from-sorted-list",
+    "difficulty": "Easy",
+    "category": "Linked Lists",
+    "params": [
+      {
+        "name": "head",
+        "type": "linked list (integer array)"
+      }
+    ],
+    "example": [
+      [
+        1,
+        1,
+        2,
+        3,
+        3
+      ]
+    ],
+    "expected": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Largest Rectangle in Histogram",
+    "slug": "largest-rectangle-in-histogram",
+    "difficulty": "Hard",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "heights",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        2,
+        1,
+        5,
+        6,
+        2,
+        3
+      ]
+    ],
+    "expected": 10
+  },
+  {
+    "id": 85,
+    "title": "Maximal Rectangle",
+    "slug": "maximal-rectangle",
+    "difficulty": "Hard",
+    "category": "Matrices",
+    "params": [
+      {
+        "name": "matrix",
+        "type": "board (array of strings)"
+      }
+    ],
+    "example": [
+      [
+        "10100",
+        "10111",
+        "11111",
+        "10010"
+      ]
+    ],
+    "expected": 6
+  },
+  {
+    "id": 86,
+    "title": "Partition List",
+    "slug": "partition-list",
+    "difficulty": "Medium",
+    "category": "Linked Lists",
+    "params": [
+      {
+        "name": "head",
+        "type": "linked list (integer array)"
+      },
+      {
+        "name": "x",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        1,
+        4,
+        3,
+        2,
+        5,
+        2
+      ],
+      3
+    ],
+    "expected": [
+      1,
+      2,
+      2,
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Scramble String",
+    "slug": "scramble-string",
+    "difficulty": "Hard",
+    "category": "Dynamic Programming",
+    "params": [
+      {
+        "name": "s1",
+        "type": "string"
+      },
+      {
+        "name": "s2",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "great",
+      "rgeat"
+    ],
+    "expected": true
+  },
+  {
+    "id": 88,
+    "title": "Merge Sorted Array",
+    "slug": "merge-sorted-array",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "params": [
+      {
+        "name": "nums1",
+        "type": "integer array"
+      },
+      {
+        "name": "m",
+        "type": "integer"
+      },
+      {
+        "name": "nums2",
+        "type": "integer array"
+      },
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        1,
+        2,
+        3,
+        0,
+        0,
+        0
+      ],
+      3,
+      [
+        2,
+        5,
+        6
+      ],
+      3
+    ],
+    "expected": [
+      1,
+      2,
+      2,
+      3,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Gray Code",
+    "slug": "gray-code",
+    "difficulty": "Medium",
+    "category": "Math",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      2
+    ],
+    "expected": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Subsets II",
+    "slug": "subsets-ii",
+    "difficulty": "Medium",
+    "category": "Backtracking",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer array"
+      }
+    ],
+    "example": [
+      [
+        1,
+        2,
+        2
+      ]
+    ],
+    "expected": [
+      [],
+      [
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Decode Ways",
+    "slug": "decode-ways",
+    "difficulty": "Medium",
+    "category": "Dynamic Programming",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "226"
+    ],
+    "expected": 3
+  },
+  {
+    "id": 92,
+    "title": "Reverse Linked List II",
+    "slug": "reverse-linked-list-ii",
+    "difficulty": "Medium",
+    "category": "Linked Lists",
+    "params": [
+      {
+        "name": "head",
+        "type": "linked list (integer array)"
+      },
+      {
+        "name": "left",
+        "type": "integer"
+      },
+      {
+        "name": "right",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      2,
+      4
+    ],
+    "expected": [
+      1,
+      4,
+      3,
+      2,
+      5
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Restore IP Addresses",
+    "slug": "restore-ip-addresses",
+    "difficulty": "Medium",
+    "category": "Backtracking",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "25525511135"
+    ],
+    "expected": [
+      "255.255.11.135",
+      "255.255.111.35"
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Binary Tree Inorder Traversal",
+    "slug": "binary-tree-inorder-traversal",
+    "difficulty": "Easy",
+    "category": "Trees",
+    "params": [
+      {
+        "name": "root",
+        "type": "tree (level-order array with null)"
+      }
+    ],
+    "example": [
+      [
+        1,
+        null,
+        2,
+        3
+      ]
+    ],
+    "expected": [
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Unique Binary Search Trees II",
+    "slug": "unique-binary-search-trees-ii",
+    "difficulty": "Medium",
+    "category": "Trees",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      3
+    ],
+    "expected": [
+      [
+        1,
+        null,
+        2,
+        null,
+        3
+      ],
+      [
+        1,
+        null,
+        3,
+        2
+      ],
+      [
+        2,
+        1,
+        3
+      ],
+      [
+        3,
+        1,
+        null,
+        null,
+        2
+      ],
+      [
+        3,
+        2,
+        null,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Unique Binary Search Trees",
+    "slug": "unique-binary-search-trees",
+    "difficulty": "Medium",
+    "category": "Trees",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "example": [
+      3
+    ],
+    "expected": 5
+  },
+  {
+    "id": 97,
+    "title": "Interleaving String",
+    "slug": "interleaving-string",
+    "difficulty": "Medium",
+    "category": "Dynamic Programming",
+    "params": [
+      {
+        "name": "s1",
+        "type": "string"
+      },
+      {
+        "name": "s2",
+        "type": "string"
+      },
+      {
+        "name": "s3",
+        "type": "string"
+      }
+    ],
+    "example": [
+      "aabcc",
+      "dbbca",
+      "aadbbcbcac"
+    ],
+    "expected": true
+  },
+  {
+    "id": 98,
+    "title": "Validate Binary Search Tree",
+    "slug": "validate-binary-search-tree",
+    "difficulty": "Medium",
+    "category": "Trees",
+    "params": [
+      {
+        "name": "root",
+        "type": "tree (level-order array with null)"
+      }
+    ],
+    "example": [
+      [
+        2,
+        1,
+        3
+      ]
+    ],
+    "expected": true
+  },
+  {
+    "id": 99,
+    "title": "Recover Binary Search Tree",
+    "slug": "recover-binary-search-tree",
+    "difficulty": "Medium",
+    "category": "Trees",
+    "params": [
+      {
+        "name": "root",
+        "type": "tree (level-order array with null)"
+      }
+    ],
+    "example": [
+      [
+        3,
+        1,
+        4,
+        null,
+        null,
+        2
+      ]
+    ],
+    "expected": [
+      2,
+      1,
+      4,
+      null,
+      null,
+      3
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Same Tree",
+    "slug": "same-tree",
+    "difficulty": "Easy",
+    "category": "Trees",
+    "params": [
+      {
+        "name": "p",
+        "type": "tree (level-order array with null)"
+      },
+      {
+        "name": "q",
+        "type": "tree (level-order array with null)"
+      }
+    ],
+    "example": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "expected": true
+  }
+]

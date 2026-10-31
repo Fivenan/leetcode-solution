@@ -42,6 +42,26 @@ The independent property checker adds 654 deterministic checks per language for 
 
 GitHub Actions runs the structure check, all three language checks, and the independent property checks on pushes and pull requests using Ubuntu. Its language compilers come from the runner image. A missing local compiler is a failed prerequisite, not a passing check. See [the workflow](.github/workflows/verify.yml) and [the test scripts](scripts/).
 
+## Interactive algorithm explorer
+
+The **Algo Atlas** website runs these Go solutions in your browser using WebAssembly. Choose any of the 100 problems, edit its JSON arguments, and step through the actual algorithm with highlighted source lines and detached variable snapshots. Playback, a timeline, searchable problem navigation, and the accompanying explanations help connect the code to its changing state. Everything runs locally in a browser worker; the site needs no backend or third-party JavaScript packages.
+
+Build with Node.js 24 and Go 1.23 or newer:
+
+```sh
+node scripts/build-site.mjs
+node scripts/verify-site.mjs
+node scripts/verify-site-wasm.mjs
+cd site
+go test ./...
+go vet ./...
+go run ./cmd/serve
+```
+
+Open the printed loopback URL. The static output is in `site/dist/`; generated isolated Go packages are in `site/generated/`. Both are ignored and reproducible from the original snippets. See [the explorer guide](site/README.md) for input formats, tracing limits, and publication instructions.
+
+The [`gh-pages` branch](https://github.com/Fivenan/leetcode-solution/tree/gh-pages) holds a prepared static build. GitHub Pages publication is separate. The [Algorithm explorer workflow](.github/workflows/explorer.yml) checks the website and stores a Pages artifact on pushes; its deployment job runs only when manually requested with **publish** enabled.
+
 ## Problem index
 
 Titles and links are based on the [official LeetCode problem catalog](https://leetcode.com/problemset/) ([metadata endpoint](https://leetcode.com/api/problems/all/)). Problem statements belong to LeetCode; the adjacent explanations use concise original restatements. Source files implement standard algorithms without third-party runtime dependencies.
